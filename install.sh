@@ -10,3 +10,7 @@ git submodule update
 cd ..
 mv vim-c/bundle bundle
 rm -rf vim-c
+cd bundle
+wget https://conque.googlecode.com/files/conque_2.3.vmb
+vim -c 'so %' -c 'q' conque_2.3.vmb
+rm -rf conque_2.3.vmb
