@@ -1,0 +1,39 @@
+[submodule "bundle/conque-shell"]
+	path = bundle/conque-shell
+	url = git://github.com/vim-scripts/Conque-Shell
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.vim
+[submodule "bundle/nerdetree"]
+	path = bundle/nerdetree
+	url = git://github.com/scrooloose/nerdtree
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = git://github.com/bling/vim-airline
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive
+[submodule "bundle/nerdtree-tabs"]
+	path = bundle/nerdtree-tabs
+	url = git://github.com/jistr/vim-nerdtree-tabs
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround
+[submodule "bundle/conqueshell"]
+	path = bundle/conqueshell
+	url = git://github.com/vim-scripts/Conque-Shell
