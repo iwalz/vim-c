@@ -34,3 +34,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround
+[submodule "bundle/splice"]
+	path = bundle/splice
+	url = git://github.com/sjl/splice.vim/

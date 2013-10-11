@@ -30,6 +30,7 @@ Features
  * Tabs
  * Better statusbar
  * Syntax highlighting
+ * Merge Tool
 
 Plugins
 -------
@@ -61,3 +62,5 @@ And it's quite easy ... The plugins, I use in this setup:
 11. [NerdTree-Tabs](https://github.com/jistr/vim-nerdtree-tabs) 
 
 12. [Surround](https://github.com/tpope/vim-surround) ([vim.org](http://www.vim.org/scripts/script.php?script_id=1697))
+
+13. [Splice](https://github.com/sjl/splice.vim/) ([vim.org](http://www.vim.org/scripts/script.php?script_id=4026))
