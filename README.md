@@ -19,6 +19,20 @@ curl https://raw.github.com/iwalz/vim-c/master/install.sh | bash
 ```
 I suggest to start without a `.vimrc` and `.vim` directory. Dependencies are `ctags` (supertab) and python support (conque shell) enabled in vim.
 
+If you want to setup splice as your git merge tool, run
+```
+curl https://raw.github.com/iwalz/vim-c/master/configure_vimdiff.sh | bash
+```
+
+Putty settings
+--------------
+
+To use vim through ssh via putty needs a few additional settings in putty. It's most likely linked to the commands, sent by putty for Del, Backspace etc.
+
+![Putty Keyboard settings](https://raw.github.com/iwalz/vim-c/master/putty_keyboard.png "Putty Keyboard settings")
+
+![Putty Feature settings](https://raw.github.com/iwalz/vim-c/master/putty_feature.png "Putty Feature settings")
+
 Features
 --------
 
