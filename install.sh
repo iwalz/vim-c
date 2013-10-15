@@ -5,7 +5,7 @@ git clone git://github.com/iwalz/vim-c.git vim-c
 curl 'www.vim.org/scripts/download_script.php?src_id=19375' > ~/.vim/autoload/pathogen.vim
 mv vim-c/.vimrc ~/.vimrc
 mv vim-c/.vimrc.* ~/
-if [ ! -f ~/.vimrc.local]; then
+if [ ! -f ~/.vimrc.local ]; then
 	touch ~/.vimrc.local	
 fi
 cd vim-c
