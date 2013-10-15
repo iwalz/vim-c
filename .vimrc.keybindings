@@ -1,0 +1,21 @@
+" Fix left and right key bindings
+map <ESC>[C <C-Right>
+map <ESC>[D <C-Left>
+
+" Delete line with ctrl + d
+inoremap <c-d> <esc>ddi
+nnoremap <c-d> <esc>dd 
+
+" Switch to left/right tab with Ctrl+left and right arrow
+nnoremap <silent> <C-Left> :tabprev<CR>
+nnoremap <silent> <C-Right> :tabn<CR>
+
+nnoremap <silent> <C-F5> :CtrlPClearCache<CR>
+nnoremap <silent> <C-e> :call ToggleNerdTree()<CR>
+nnoremap <silent> <C-r> :call ToggleTagbar()<CR>
+nnoremap <silent> <F2> :call FocusEditor()<CR>
+nnoremap <silent> <F3> :call FocusNerdTree()<CR>
+nnoremap <silent> <F4> :call FocusTagbar()<CR>
+nnoremap <silent> <F6> :call ToggleConqueShell()<CR>
+
+inoremap <C-s> <esc>:w<cr>i

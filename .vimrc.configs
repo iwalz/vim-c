@@ -1,0 +1,30 @@
+syntax on
+set background=dark
+colorscheme solarized
+set nocompatible 
+set number
+
+let g:NERDTreeDirArrows=0
+" Open Nerdtree if no argument is given
+if !argc()  
+	let g:nerdtree_tabs_open_on_console_startup=1 
+	let g:nerdtree_tabs_smart_startup_focus=2
+endif
+" Close NerdTree if no window is left beside NerdTree
+let g:nerdtree_tabs_autoclose=1
+" Enable context specific search
+let g:SuperTabDefaultCompletionType = "context"
+" Sorts from top to bottom
+let g:SuperTabContextDefaultCompletionType = "<c-n>"
+
+" No limit
+let g:ctrlp_max_files = 0
+" Current working dir
+let g:ctrlp_working_path_mode = 'c'
+" Use to find files
+let g:ctrlp_user_command = 'find %s -type f'
+" Open files in new tab
+let g:ctrlp_prompt_mappings = {
+  \ 'AcceptSelection("e")': [],
+  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+  \ }
