@@ -8,14 +8,20 @@ nnoremap <c-d> <esc>dd
 
 " Switch to left/right tab with Ctrl+left and right arrow
 nnoremap <silent> <C-Left> :tabprev<CR>
+inoremap <silent> <C-Left> <C-O>:tabprev<CR>
 nnoremap <silent> <C-Right> :tabn<CR>
+inoremap <silent> <C-Right> <C-O>:tabn<CR>
 
 nnoremap <silent> <C-F5> :CtrlPClearCache<CR>
 nnoremap <silent> <C-e> :call ToggleNerdTree()<CR>
+inoremap <silent> <C-e> <C-O>:call ToggleNerdTree()<CR>
 nnoremap <silent> <C-r> :call ToggleTagbar()<CR>
+inoremap <silent> <C-r> <C-O>:call ToggleTagbar()<CR>
 nnoremap <silent> <F2> :call FocusEditor()<CR>
+inoremap <silent> <F2> <C-O>:call FocusEditor()<CR>
 nnoremap <silent> <F3> :call FocusNerdTree()<CR>
+inoremap <silent> <F3> <C-O>:call FocusNerdTree()<CR>
 nnoremap <silent> <F4> :call FocusTagbar()<CR>
-nnoremap <silent> <F6> :call ToggleConqueShell()<CR>
-
-inoremap <C-s> <esc>:w<cr>i
+inoremap <silent> <F4> <C-O>:call FocusTagbar()<CR>
+nnoremap <silent> <F12> :call ToggleConqueShell()<CR>
+inoremap <silent> <F12> <C-O>:call ToggleConqueShell()<CR>

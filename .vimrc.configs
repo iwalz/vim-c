@@ -3,6 +3,20 @@ set background=dark
 colorscheme solarized
 set nocompatible 
 set number
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set cindent
+set smartindent
+set autoindent
+
+" Enable better tab line
+let g:airline#extensions#tabline#enabled = 1
+" Always show vim airline
+set laststatus=2
+" Use powerlineish as default theme
+let g:airline_theme = "powerlineish"
+
+" Exit conque shell buffer when program exits
+let g:ConqueTerm_CloseOnEnd = 1
 
 let g:NERDTreeDirArrows=0
 " Open Nerdtree if no argument is given
@@ -20,7 +34,7 @@ let g:SuperTabContextDefaultCompletionType = "<c-n>"
 " No limit
 let g:ctrlp_max_files = 0
 " Current working dir
-let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_working_path_mode = 'ga'
 " Use to find files
 let g:ctrlp_user_command = 'find %s -type f'
 " Open files in new tab
