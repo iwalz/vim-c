@@ -1,6 +1,6 @@
 syntax on
 set background=dark
-colorscheme solarized
+colorscheme desert
 set nocompatible 
 set number
 set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
@@ -8,17 +8,20 @@ set cindent
 set smartindent
 set autoindent
 
+" Disable help for tagbar
+let g:tagbar_compact = 1
+" Disable help in airline
+let NERDTreeMinimalUI=1
 " Enable better tab line
 let g:airline#extensions#tabline#enabled = 1
 " Always show vim airline
 set laststatus=2
 " Use powerlineish as default theme
 let g:airline_theme = "powerlineish"
-
 " Exit conque shell buffer when program exits
 let g:ConqueTerm_CloseOnEnd = 1
-
-let g:NERDTreeDirArrows=0
+" Disable utf8 icons
+"let g:NERDTreeDirArrows=0
 " Open Nerdtree if no argument is given
 if !argc()  
 	let g:nerdtree_tabs_open_on_console_startup=1 
